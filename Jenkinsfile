@@ -7,6 +7,7 @@ pipeline {
     }
     environment {
         CI = 'true'
+        REACT_APP_MSAL_CLIENT_ID = '51d325ab-a8b3-48ab-b280-e0e55bb9dea1'
     }
     stages {
         stage('Build') { 
